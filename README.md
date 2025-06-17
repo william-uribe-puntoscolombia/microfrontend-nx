@@ -1,6 +1,10 @@
-# Demo
+# Microfrontends con Angular y Nx
 
-Contiene un ejemplo de un shell con un remote de login, los dos usando una librería compartida de Angular.
+- Microfrontends con module federation.
+- Contiene un mf-shell que es el dashboard, y un mf-remote que es el login.
+- Se implementa una demo de uso de una librería compartida entre los microfrontends que simula una autenticacion.
+
+![alt text](<assets/Pasted image.png>)
 
 ```sh
 # Ejemplo de crear un componente en Angular usando Nx
