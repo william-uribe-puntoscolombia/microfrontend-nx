@@ -33,13 +33,14 @@ header a:hover {
   color: #fff;
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
-  margin: 1rem;
+  margin: 0px 0px 1rem 0px;
   text-align: center;
   border: 1px dashed rgba(255, 255, 255, 0.4);
 }
 
 main {
   display: flex;
+  flex-direction: column;
   margin: 0 auto;
   width: calc(100% - 2rem);
 }
