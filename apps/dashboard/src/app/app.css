@@ -1,60 +1,45 @@
 header {
-  background-color: var(--primary-color);
-  padding: 1rem 2rem;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 0rem 1rem;
   box-shadow: var(--shadow);
-  position: sticky;
   top: 0;
   z-index: 100;
+  margin: 1rem;
+  border-radius: 1rem;
 }
 
 header ul {
   display: flex;
   list-style: none;
-  gap: 2rem;
   justify-content: flex-start;
-}
-
-header li {
-  padding: 0.5rem 0;
+  margin: 0px;
 }
 
 header a {
-  color: var(--light-color);
+  color: var(--text-color);
   text-decoration: none;
   font-weight: 500;
-  transition: var(--transition);
-  padding: 0.5rem 0;
+  padding: 0.5rem 1rem;
   position: relative;
+  display: inline-block;
 }
 
-header a::after {
-  content: '';
-  position: absolute;
-  width: 0;
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  background-color: var(--light-color);
-  transition: var(--transition);
+header a:hover {
+  background-color: rgba(10, 42, 13, 0.2);
 }
 
-header a:hover::after {
-  width: 100%;
+.tag-login {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  margin: 1rem;
+  text-align: center;
+  border: 1px dashed rgba(255, 255, 255, 0.4);
 }
 
 main {
-  max-width: 1200px;
-  margin: 2rem auto;
-  padding: 1.5rem;
-  background-color: var(--light-color);
-  border-radius: 8px;
-  box-shadow: var(--shadow);
-  min-height: calc(100vh - 200px);
-}
-
-main div {
-  background-color: #e8f5e9;
-  border-left: 4px solid #66bb6a;
-  padding: 1rem;
-  border-radius: 4px;
+  display: flex;
+  margin: 0 auto;
+  width: calc(100% - 2rem);
 }

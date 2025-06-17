@@ -1,10 +1,13 @@
 /* Modern Login Form Styles */
 :host {
+  background-color: #7678ed;
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100%;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 1rem;
+  border-radius: 1rem;
+  width: 100%;
 }
 
 .section-login {
@@ -47,7 +50,7 @@ input:focus {
 }
 
 button {
-  background-color: #4a90e2;
+  background-color: #7678ed;
   color: white;
   border: none;
   border-radius: 4px;
@@ -57,14 +60,6 @@ button {
   cursor: pointer;
   transition: background-color 0.3s;
   margin-top: 0.5rem;
-}
-
-button:hover {
-  background-color: #3a7bc8;
-}
-
-button:active {
-  background-color: #2a6db8;
 }
 
 .tag-login {

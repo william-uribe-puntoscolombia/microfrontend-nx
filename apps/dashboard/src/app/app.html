@@ -1,13 +1,16 @@
 <header>
   <ul>
-    <li><a routerLink="/">Home</a></li>
-    <li><a routerLink="login">Login</a></li>
+    <li><a routerLink="/">Home (shell)</a></li>
+    <li><a routerLink="login">Login (remote)</a></li>
   </ul>
 </header>
 
 <main>
   @if(isLoggedIn$ | async){
-  <div>You are authenticated so you can see this content.</div>
+  <div class="tag-login">
+    Estás autenticado, por lo que puedes ver este contenido.
+  </div>
   }
+
   <router-outlet />
 </main>

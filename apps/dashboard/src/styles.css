@@ -1,10 +1,6 @@
 :root {
-  --primary-color: #3f51b5;
-  --secondary-color: #303f9f;
-  --text-color: #333;
-  --light-color: #fff;
+  --text-color: #fff;
   --shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  --transition: all 0.3s ease;
 }
 
 * {
@@ -17,9 +13,5 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
   color: var(--text-color);
-  background-color: #f9f9f9;
+  background-color: #2ea297;
 }
-
-/* .login-app input {
-  border: 1px solid red;
-} */
