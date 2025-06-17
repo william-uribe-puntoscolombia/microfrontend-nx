@@ -3,8 +3,9 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "dev:dashboard": "nx run dashboard:serve",
-    "dev:login": "nx run login:serve"
+    "dev:dash": "nx serve dashboard --devRemotes=login",
+    "serve:dash": "nx run dashboard:serve",
+    "serve:login": "nx run login:serve"
   },
   "private": true,
   "devDependencies": {
