@@ -1,0 +1,78 @@
+/* Modern Login Form Styles */
+:host {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.section-login {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-weight: 500;
+  color: #333;
+}
+
+input {
+  padding: 0.75rem 1rem;
+  border: 1px solid #e1e1e1;
+  border-radius: 4px;
+  font-size: 1rem;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input:focus {
+  outline: none;
+  border-color: #4a90e2;
+  box-shadow: 0 0 0 2px rgba(74, 144, 226, 0.2);
+}
+
+button {
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 0.5rem;
+}
+
+button:hover {
+  background-color: #3a7bc8;
+}
+
+button:active {
+  background-color: #2a6db8;
+}
+
+.tag-login {
+  margin-top: 1rem;
+  padding: 0.75rem;
+  background-color: #e6f7e6;
+  color: #2e7d32;
+  border-radius: 4px;
+  text-align: center;
+  font-weight: 500;
+}

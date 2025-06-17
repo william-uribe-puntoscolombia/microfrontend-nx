@@ -5,7 +5,9 @@
   "scripts": {
     "dev:dash": "nx serve dashboard --devRemotes=login",
     "serve:dash": "nx run dashboard:serve",
-    "serve:login": "nx run login:serve"
+    "serve:login": "nx run login:serve",
+    "ng": "nx g @nx/angular:component",
+    "test:dash": "nx run dashboard:test"
   },
   "private": true,
   "devDependencies": {
